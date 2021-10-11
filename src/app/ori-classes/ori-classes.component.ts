@@ -19,3 +19,5 @@ export class OriClassesComponent implements OnInit {
     classe.funcao();
   }
 }
+
+
