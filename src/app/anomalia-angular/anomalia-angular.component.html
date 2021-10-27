@@ -1,0 +1,6 @@
+<h1>Anomalia Pai works!</h1>
+Variable in parent: {{parentName}}
+<div *ngFor="let element of parentArr">
+    <p>Array values in parent: {{element}}</p>
+</div>
+<app-anomalia-filha [name] = "parentName" [arr]="parentArr"></app-anomalia-filha>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ClasseGenerica } from '../Class/classeGenerica';
 import { Estagiario } from '../Class/Estagiario';
 
 @Component({
@@ -28,7 +29,14 @@ export class PolimorfismoComponent implements OnInit {
     else console.log('Area do triangulo:', base*altura/2);
   }
 
-  parametrico() {}
+  parametrico() {
+    let generico = new ClasseGenerica("OLA")
+    generico.funcao()
+    let y = generico.valido<number>(123)
+    console.log('y',y)
+    let x = generico.valido<string>('oi')
+    console.log('x',x)
+  }
 
   inclusao() {
     let estagiario = new Estagiario('Patricia');

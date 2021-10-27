@@ -9,6 +9,9 @@ import { HerancaComponent } from './heranca/heranca.component';
 import { EncapsulamentoComponent } from './encapsulamento/encapsulamento.component';
 import { PolimorfismoComponent } from './polimorfismo/polimorfismo.component';
 import { OriInterfaceComponent } from './ori-interface/ori-interface.component';
+import { AnomaliaTSComponent } from './anomalia-ts/anomalia-ts.component';
+import { AnomaliaAngularComponent } from './anomalia-angular/anomalia-angular.component';
+import { AnomaliaFilhaComponent } from './anomalia-angular/anomalia-filha/anomalia-filha.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { OriInterfaceComponent } from './ori-interface/ori-interface.component';
     HerancaComponent,
     EncapsulamentoComponent,
     PolimorfismoComponent,
-    OriInterfaceComponent
+    OriInterfaceComponent,
+    AnomaliaTSComponent,
+    AnomaliaAngularComponent,
+    AnomaliaFilhaComponent
   ],
   imports: [
     BrowserModule,

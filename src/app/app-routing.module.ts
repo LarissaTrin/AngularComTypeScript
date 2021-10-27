@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AnomaliaAngularComponent } from './anomalia-angular/anomalia-angular.component';
+import { AnomaliaTSComponent } from './anomalia-ts/anomalia-ts.component';
 import { EncapsulamentoComponent } from './encapsulamento/encapsulamento.component';
 import { HerancaComponent } from './heranca/heranca.component';
 import { OriClassesComponent } from './ori-classes/ori-classes.component';
@@ -14,6 +16,8 @@ const routes: Routes = [
   { path: 'encapsulamento', component: EncapsulamentoComponent},
   { path: 'polimorfismo', component: PolimorfismoComponent},
   { path: 'interface', component: OriInterfaceComponent},
+  { path: 'anomaliaTS', component: AnomaliaTSComponent},
+  { path: 'anomaliaAngular', component: AnomaliaAngularComponent},
 ];
 
 @NgModule({
