@@ -12,6 +12,7 @@ import { OriInterfaceComponent } from './ori-interface/ori-interface.component';
 import { AnomaliaTSComponent } from './anomalia-ts/anomalia-ts.component';
 import { AnomaliaAngularComponent } from './anomalia-angular/anomalia-angular.component';
 import { AnomaliaFilhaComponent } from './anomalia-angular/anomalia-filha/anomalia-filha.component';
+import { AbsClassComponent } from './abs-class/abs-class.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AnomaliaFilhaComponent } from './anomalia-angular/anomalia-filha/anomal
     OriInterfaceComponent,
     AnomaliaTSComponent,
     AnomaliaAngularComponent,
-    AnomaliaFilhaComponent
+    AnomaliaFilhaComponent,
+    AbsClassComponent
   ],
   imports: [
     BrowserModule,

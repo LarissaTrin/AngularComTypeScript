@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AbsClassComponent } from './abs-class/abs-class.component';
 import { AnomaliaAngularComponent } from './anomalia-angular/anomalia-angular.component';
 import { AnomaliaTSComponent } from './anomalia-ts/anomalia-ts.component';
 import { EncapsulamentoComponent } from './encapsulamento/encapsulamento.component';
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'encapsulamento', component: EncapsulamentoComponent},
   { path: 'polimorfismo', component: PolimorfismoComponent},
   { path: 'interface', component: OriInterfaceComponent},
+  { path: 'absClass', component: AbsClassComponent},
   { path: 'anomaliaTS', component: AnomaliaTSComponent},
   { path: 'anomaliaAngular', component: AnomaliaAngularComponent},
 ];
