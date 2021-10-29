@@ -20,8 +20,4 @@ export class EncapsulamentoComponent implements OnInit {
   private funcaoPrivada() {
     console.log('funcao Privada')
   }
-
-  funcaoPublic() {
-    console.log("funcaoPublic acessada");
-  }
 }

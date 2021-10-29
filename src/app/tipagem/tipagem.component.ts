@@ -7,14 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TipagemComponent implements OnInit {
 
-  tipagem = 0;
+  tipagem = 'OLA';
+  tipagemnum = 0;
   tipoAny: any;
 
-  constructor() { }
+  constructor( ) { }
 
   ngOnInit(): void {
 
     console.log("tipagem",this.tipagem, ' = ', typeof(this.tipagem))
+    //this.tipagemnum ='oi'
     this.tipoAny = 'oi';
     console.log("tipoAny",this.tipoAny, ' = ', typeof(this.tipoAny))
     this.tipoAny = 0;
