@@ -20,6 +20,7 @@ export class AnomaliaFilhaComponent implements OnInit {
   btnClicked(){
     this.name = 'Changed '+ this.name;
     //this.test = this.arr.slice()
-    this.test.push("Mumbai");
+    this.arr.push("Mumbai");
+    //this.test.push("Mumbai");
   }
 }
